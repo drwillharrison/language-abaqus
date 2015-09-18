@@ -1,0 +1,64 @@
+'scopeName': 'source.abaqus'
+'name': 'Abaqus'
+'fileTypes': [
+  'inp'
+]
+'patterns': [
+  { 'include': '#comments' }
+  { 'include': '#constants' }
+  { 'include': '#keywords' }
+  { 'include': '#parameters' }
+]
+'repository':
+  # comments
+  'comments':
+    'patterns': [
+      {
+        'comment': 'Comment line'
+        'begin': '^[*][*]'
+        'end': '(?=\\n)'
+        'name': 'comment.line.c.abaqus'
+      }
+    ]
+  # constants:
+  'constants':
+    'patterns': [
+      {
+        'comment': 'Numeric constants'
+        'name': 'constant.numeric.abaqus'
+        'match': '(?ix)[\\+\\-]?\\b(\\d+\\.?\\d*|\\.\\d+)(d[\\+\\-]?\\d+|e[\\+\\-]?\\d+(_\\w+)?)?(?![a-z_])'
+      }
+    ]
+  # keywords
+  'keywords':
+   'patterns': [
+     {
+      'comment': 'Abaqus keywords'
+      'name': 'keyword.other.abaqus'
+      'begin': '^[*]'
+      'end': '(?=\\,|\\n)'
+      }
+    ]
+  # parameters
+  'parameters':
+    'patterns': [
+      'comment': 'Abaqus keyword parameters'
+      'name': 'entity.name.function.abaqus'
+      'match': '(\\=)'
+      # 'begin': '(\\=)'
+      # 'end': '(?=\\,|\\n)'
+    ]
+#
+#
+#
+#
+#'(?x) [-:@a-zA-Z0-9_.,~%+/?=&#]'
+# {   patterns = (
+#         {   match = '(?x)
+#                 ( (https?|s?ftp|ftps|file|smb|afp|nfs|(x-)?man(-page)?|gopher|txmt)://|mailto:)
+#                 [-:@a-zA-Z0-9_.,~%+/?=&#]+(?<![.,?:])
+#             ';
+#             name = 'markup.underline.link.hyperlink';
+#         },
+#     );
+# }

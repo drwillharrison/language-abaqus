@@ -1,0 +1,3 @@
+'.source.abaqus':
+  'editor':
+    'commentStart': '** '

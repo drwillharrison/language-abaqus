@@ -1,0 +1,15 @@
+{
+  "name": "language-abaqus",
+  "author": "Will Harrison ",
+  "version": "0.0.1",
+  "description": "Syntax highlighting for Abaqus in atom ",
+  "readme": "# language-abaqus package\n\nSyntax highlighting for ABAQUS in atom.\n",
+  "keywords": [
+    "abaqus"
+  ],
+  "repository": "my github",
+  "license": "",
+  "engines": {
+    "atom": "*"
+  }
+}
