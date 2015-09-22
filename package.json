@@ -7,7 +7,7 @@
   "keywords": [
     "abaqus"
   ],
-  "repository": "my github",
+  "repository": "https://github.com/drwillharrison/language-abaqus",
   "license": "",
   "engines": {
     "atom": "*"
