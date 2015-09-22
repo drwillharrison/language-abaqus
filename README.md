@@ -10,4 +10,4 @@ Syntax highlighting for keywords and comments for Abaqus FEA input files.
 
 ## Copyright
 
-See [LICENSE](https://github.com/lee-dohm/language-generic-config/blob/master/LICENSE.md) for details.
+See [LICENSE](https://github.com/drwillharrison/language-abaqus/blob/master/LICENSE.md) for details.
