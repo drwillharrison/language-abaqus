@@ -2,7 +2,7 @@
   "name": "language-abaqus",
   "author": "Will Harrison",
   "version": "0.1.0",
-  "description": "Syntax highlighting for Abaqus in atom ",
+  "description": "Syntax highlighting for Abaqus in atom",
   "readme": "# language-abaqus package\n\nSyntax highlighting for ABAQUS in atom.\n",
   "keywords": [
     "abaqus"
